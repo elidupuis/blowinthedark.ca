@@ -1,0 +1,21 @@
+permalink: /blog/:title/
+relative_permalinks: false
+
+name: Blow in the Dark Glassworks
+url: http://example.com
+description: 'Blow in the Dark Glassworks'
+assetpath: /assets/dist/
+bowerpath: /assets/components/
+
+timezone: America/Edmonton
+
+exclude:
+  - .gitignore
+  - .editorconfig
+  - README.md
+  - "*.todo"
+  - Gruntfile.js
+  - node_modules
+  - package.json
+  - bower.json
+  - component.json

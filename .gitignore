@@ -1,1 +1,10 @@
+.DS_Store
+.tmp
+.sass-cache
+assets/components
+node_modules
+temp
+*.log
+.grunt
+
 _site/

@@ -1,0 +1,50 @@
+// global variables
+
+$primary-font: "ff-tisa-web-pro";
+$secondary-font: "proxima-nova-condensed";
+
+// color vars
+// logo colors
+$green: rgb(125,134,140);
+$blue: rgb(0,85,184);
+$blue-light: rgb(0,155,222);
+
+$off-white: #f1f1f1;
+$light-gray: #a9a8a8;
+$light-grey: $light-gray;
+$mid-gray: #6D6E70;
+$mid-grey: $mid-gray;
+// $gray: #a9a8a8;
+// $grey: $gray;
+$black: #1e1e1e;
+$white: #fff;
+$hr-color: #ddd;
+
+// layout vars
+$margin: 20px;
+
+// misc vars
+$anim-speed: .25s;
+$anim-ease: ease-in-out;
+
+
+// font sizes
+$mega: 60px;
+$big: 40px;
+
+
+// widths
+$hilite-width: 600px;
+
+
+
+%vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+// .element p {
+//   @extend %vertical-align;
+// }

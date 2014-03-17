@@ -1,0 +1,16 @@
+// $small: 766px !default;
+// $medium: 1024px !default;
+// $large: 1280px !default;
+// // $gutter: 30px !default;
+
+// @mixin breakpoint($point) {
+//   @if $point == small {
+//     @media (min-width: $small) { @content; }
+//   }
+//   @else if $point == medium {
+//     @media (min-width: $medium) { @content; }
+//   }
+//   @else if $point == large {
+//     @media (min-width: $large)  { @content; }
+//   }
+// }
