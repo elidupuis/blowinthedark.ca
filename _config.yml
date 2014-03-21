@@ -4,8 +4,8 @@ relative_permalinks: false
 name: Blow in the Dark Glassworks
 url: http://example.com
 description: 'Blow in the Dark Glassworks'
-assetpath: /assets/dist/
-bowerpath: /assets/components/
+assetpath: assets/dist/
+bowerpath: assets/components/
 
 timezone: America/Edmonton
 
