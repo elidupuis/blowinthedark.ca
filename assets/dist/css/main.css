@@ -6170,6 +6170,10 @@ h1, h2, h3, h4, h5, h6 {
 .l-mb4 {
   margin-bottom: 4em; }
 
+h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small {
+  text-transform: uppercase;
+  font-weight: normal; }
+
 .logo {
   margin: 0; }
 
@@ -6200,6 +6204,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2em 1em;
   font-size: 26.66667px;
   color: #fff; }
+
+img.thumb {
+  padding: 4px;
+  border: 1px solid #dddddd;
+  border-radius: 4px; }
 
 footer p {
   font-size: 0.75rem;
