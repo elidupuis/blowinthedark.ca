@@ -1,8 +1,8 @@
 @import "settings";
 
 // Foundation
-@import "foundation/scss/normalize";
-@import "foundation/scss/foundation";
+@import "normalize";
+@import "foundation";
 // @import "susy/sass/susy";
 
 // Inuit
@@ -53,8 +53,12 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 4em;
 }
 
-
-// @include breakpoint(small) { ... }
+h1, h2, h3, h4, h5, h6 {
+  > small {
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}
 
 // branding
 .logo {
@@ -103,6 +107,12 @@ h1,h2,h3,h4,h5,h6 {
   color: #fff;
 }
 
+
+img.thumb {
+  padding: 4px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+}
 
 footer p {
   font-size: rem-calc(12);

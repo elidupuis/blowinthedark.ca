@@ -48,7 +48,7 @@ module.exports = function (grunt) {
     sass: {
       all: {
         options: {
-          includePaths: ['<%= app.components %>'],
+          includePaths: ['<%= app.components %>', '<%= app.components %>foundation/scss/'],
           sourceComments: 'none'
           // ,outputstyle: 'expanded' // see https://github.com/sindresorhus/grunt-sass#outputstyle
         },
@@ -88,8 +88,8 @@ module.exports = function (grunt) {
           '<%= app.tmp %>js/libs.js': [
             '<%= app.components %>jquery/dist/jquery.min.js',
             // add Bower (or other) component's minified JS here...
-            
-            
+
+
           ]
         }
       },
@@ -152,9 +152,9 @@ module.exports = function (grunt) {
       }
     },
 
-    
 
-    
+
+
     ///////////////////////////////////////////
     // Jekyll server
     ///////////////////////////////////////////
@@ -166,7 +166,7 @@ module.exports = function (grunt) {
         command: 'jekyll serve'
       }
     },
-    
+
 
     ///////////////////////////////////////////
     // Automation Magic (Dev Workflow)
@@ -199,7 +199,7 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Default task(s).
-  grunt.registerTask('base', ['clean', 'copy', 'sass', 'jshint', 'concat', 'newer:imagemin', 'newer:svgmin', 'clean']);
+  grunt.registerTask('base', ['clean', 'copy', 'sass', 'jshint', 'concat', 'imagemin', 'svgmin', 'clean']);
 
   grunt.registerTask('default', ['base', 'watch', 'shell:jekyll']);
 
