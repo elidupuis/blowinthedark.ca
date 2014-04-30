@@ -37,9 +37,9 @@
         </header>
         <nav>
           <ul class="side-nav">
-            <li><a href="/awards/">Awards</a></li>
-            <li><a href="/classes/">Classes</a></li>
-            <li><a href="/studio/">Studio</a></li>
+            <li{% if page.url == '/awards/' %} class="active"{% endif %}><a href="/awards/">Awards</a></li>
+            <li{% if page.url == '/classes/' %} class="active"{% endif %}><a href="/classes/">Classes</a></li>
+            <li{% if page.url == '/studio/' %} class="active"{% endif %}><a href="/studio/">Studio</a></li>
           </ul>
         </nav>
       </div>
