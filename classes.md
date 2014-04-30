@@ -1,0 +1,11 @@
+---
+permalink: /classes/
+layout: default
+title: Classes
+subhead: Learn, Inspire, Create
+banner: "http://placehold.it/800x300&text=Abstract Image"
+---
+
+Learn an introduction to the art of hand blown glass right here in Edmonton, Alberta. Weekend workshops are scheduled year round and offer the aspiring glass student an opportunity to explore this unique and dynamic art medium. Classes provide emphasis on students creating their own work, working as a team and observing demonstrations on various glassmaking techniques. No experience necessary, all that is required is a positive attitude, desire to learn something new and have some fun doing it.
+
+For more information on class schedules and pricing please contact <keith@blowinthedark.ca>.
