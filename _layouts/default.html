@@ -9,8 +9,8 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Blow in the Dark Glassworks</title>
-  <meta name="description" content="Blow in the Dark Glassworks designs and creates one of a kind, hand blown glass sculptures in Edmonton Alberta.">
+  <title>{{ site.name }}</title>
+  <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="custom awards, edmonton, alberta">
   <link rel="stylesheet" href="/assets/dist/css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
@@ -31,7 +31,7 @@
     <div class="column medium-3">
       <div class="fixie">
         <header class="branding">
-          <h1 class="logo"><a href="/"><img src="{{ site.assetpath }}img/logo-bitdg.svg" alt="Blow in the Dark Glassworks"></a></h1>
+          <h1 class="logo"><a href="/"><img src="{{ site.assetpath }}img/logo-bitdg.svg" alt="{{ site.name }}"></a></h1>
           <p>An Edmonton, Alberta Hot Glass Studio</p>
           {% comment %}<p>Hand crafted glass sculptures</p>{% endcomment %}
         </header>
@@ -45,9 +45,13 @@
       </div>
     </div>
     <div class="column medium-9">
-      {% if page.banner %}<img src="{{ page.banner }}" alt="">{% endif %}
-      <h1>{{ page.title }}</h1>
-      {% if page.subhead %}<h2>{{ page.subhead }}</h2>{% endif %}
+      {% if page.banner %}<img class="thumb" src="{{ site.assetpath }}{{ page.banner }}" alt="">{% endif %}
+
+      {% unless page.url == '/' %}
+        <h1>{{ page.title }}</h1>
+        {% if page.subhead %}<h2>{{ page.subhead }}</h2>{% endif %}
+      {% endunless %}
+
       {{ content }}
     </div>
   </div>

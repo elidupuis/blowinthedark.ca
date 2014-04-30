@@ -2,8 +2,8 @@ permalink: /blog/:title/
 relative_permalinks: false
 
 name: Blow in the Dark Glassworks
-url: http://example.com
-description: 'Blow in the Dark Glassworks'
+url: http://blowinthedark.com
+description: Blow in the Dark Glassworks designs and creates one of a kind, hand blown glass sculptures in Edmonton Alberta.
 assetpath: /assets/dist/
 bowerpath: /assets/components/
 
