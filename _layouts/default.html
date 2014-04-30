@@ -45,7 +45,17 @@
       </div>
     </div>
     <div class="column medium-9">
-      {% if page.banner %}<img class="thumb" src="{{ site.assetpath }}{{ page.banner }}" alt="">{% endif %}
+      {% if page.banner %}
+        {% comment %}
+          Pretty hacky here. Allows for the remote banner images (from Flickr or something...)
+        {% endcomment %}
+        {% capture is_remote %}{{ page.banner | split: 'http' | size }}{% endcapture %}
+        {% if is_remote == '2' %}
+          <img class="thumb" src="{{ page.banner }}" alt="">
+        {% else %}
+          <img class="thumb" src="{{ site.assetpath }}{{ page.banner }}" alt="">
+        {% endif %}
+      {% endif %}
 
       {% unless page.url == '/' %}
         <h1>{{ page.title }}</h1>
