@@ -6174,6 +6174,11 @@ h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small {
   text-transform: uppercase;
   font-weight: normal; }
 
+@media only screen and (min-width:40.063em) {
+  .fixie {
+    position: fixed;
+    max-width: 220px; } }
+
 .logo {
   margin: 0; }
 
