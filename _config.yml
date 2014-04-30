@@ -1,5 +1,6 @@
 permalink: /blog/:title/
 relative_permalinks: false
+markdown: kramdown
 
 name: Blow in the Dark Glassworks
 url: http://blowinthedark.com
