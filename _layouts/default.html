@@ -12,10 +12,10 @@
   <title>{{ site.name }}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="custom awards, edmonton, alberta">
-  <link rel="stylesheet" href="/assets/dist/css/main.css">
+  <link rel="stylesheet" href="{{ site.assetpath }}css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
 
-  <script src="/assets/components/modernizr/modernizr.js"></script>
+  <script src="{{ site.bowerpath }}modernizr/modernizr.js"></script>
 
 </head>
 <body>
@@ -32,7 +32,7 @@
       <div class="fixie">
         <header class="branding">
           <h1 class="logo"><a href="/"><img src="{{ site.assetpath }}img/logo-bitdg.svg" alt="{{ site.name }}"></a></h1>
-          <p>An Edmonton, Alberta Hot Glass Studio</p>
+          <p class="tagline">A Hot Glass Studio in Edmonton, Alberta</p>
           {% comment %}<p>Hand crafted glass sculptures</p>{% endcomment %}
         </header>
         <nav>
@@ -62,7 +62,7 @@
         {% if page.subhead %}<h2>{{ page.subhead }}</h2>{% endif %}
       {% endunless %}
 
-      {{ content }}
+      <div class="prose">{{ content }}</div>
     </div>
   </div>
 
@@ -76,7 +76,7 @@
     </div>
   </footer>
 
-  <script src="/assets/dist/js/script.js"></script>
+  <script src="{{ site.assetpath }}js/script.js"></script>
 
 </body>
 </html>
