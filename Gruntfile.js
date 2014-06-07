@@ -201,7 +201,7 @@ module.exports = function (grunt) {
   // Default task(s).
   grunt.registerTask('base', ['clean', 'copy', 'sass', 'jshint', 'concat', 'imagemin', 'svgmin', 'clean']);
 
-  grunt.registerTask('default', ['base', 'watch', 'shell:jekyll']);
+  grunt.registerTask('default', ['base', 'watch']); // , 'shell:jekyll'
 
   // grunt.registerTask('dev', ['sass:dev', 'jshint', 'watch']);
   // grunt.registerTask('build', ['sass', 'jshint', 'watch']);
