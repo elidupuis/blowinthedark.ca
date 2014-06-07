@@ -10,11 +10,11 @@ Centrally located in Edmonton Alberta, Blow In The Dark Glassworks was built and
 The studio is community orientated and supports local organizations  and groups such as: Parkdale/Cromdale Community League, Arts on The Ave, Kaleido Festival, Deep Freeze, The Nina Haggerty Centre, Edmonton Arts Council, Alberta Foundation For The Arts, Highlands Junior High and Alberta Craft Council. Believing in public education the studio hosts regular community art open houses and special viewings. Please contact <keith@blowinthedark.ca> for availability.
 
 
-![]({{ site.assetpath }}img/studio-1.jpg)
+![]({{ site.baseurl }}/{{ site.assetpath }}img/studio-1.jpg)
 
 
-![]({{ site.assetpath }}img/studio-2.jpg)
+![]({{ site.baseurl }}/{{ site.assetpath }}img/studio-2.jpg)
 
 
-![]({{ site.assetpath }}img/studio-3.jpg)
+![]({{ site.baseurl }}/{{ site.assetpath }}img/studio-3.jpg)
 

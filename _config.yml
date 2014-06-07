@@ -2,11 +2,16 @@ permalink: /blog/:title/
 relative_permalinks: false
 markdown: kramdown
 
+# config for GH Pages and Local Dev
+# see http://jekyllrb.com/docs/github-pages/
+# see https://github.com/jekyll/jekyll/issues/332#issuecomment-18952908
+baseurl: /blowinthedark.ca
+
 name: Blow in the Dark Glassworks
 url: http://blowinthedark.com
 description: Blow in the Dark Glassworks designs and creates one of a kind, hand blown glass sculptures in Edmonton Alberta.
-assetpath: /assets/dist/
-bowerpath: /assets/components/
+assetpath: assets/dist/
+bowerpath: assets/components/
 
 timezone: America/Edmonton
 

@@ -3,7 +3,6 @@ permalink: /awards/
 layout: default
 title: Awards
 subhead: Design, Custom, and Recognition
-banner: "http://placehold.it/800x300&text=Abstract Image"
 ---
 
 Blow in the Dark Glassworks has been working with organizations for over 5 years and continues to build relationships with clients. Previous clients include: The City of Edmonton, Edmonton Pride Festival Association, APEGA, Capital Power Corporation, EMCN, HIV Edmonton and The Nina Haggerty Centre For The Arts. 
@@ -12,8 +11,8 @@ Designing locally hand made, custom glass pieces representing identity is what w
 
 For further information on working with the studio in creating your own custom organizational award please contact: <keith@blowinthedark.ca>
 
-![The City Managers Award of Excellence]({{ site.assetpath }}img/awards-1.jpg "The City Managers Award of Excellence, established 2011.")
+![The City Managers Award of Excellence]({{ site.baseurl}}/{{ site.assetpath }}img/awards-1.jpg "The City Managers Award of Excellence, established 2011.")
 
-![APEGA Summit Award]({{ site.assetpath }}img/awards-2.jpg "APEGA Summit Award, established 2011.")
+![APEGA Summit Award]({{ site.baseurl}}/{{ site.assetpath }}img/awards-2.jpg "APEGA Summit Award, established 2011.")
 
-![Edmonton Mennonite Centre for Newcomers Rise Awards]({{ site.assetpath }}img/awards-3.jpg "Edmonton Mennonite Centre for Newcomers Rise Awards, established 2012.")
+![Edmonton Mennonite Centre for Newcomers Rise Awards]({{ site.baseurl}}/{{ site.assetpath }}img/awards-3.jpg "Edmonton Mennonite Centre for Newcomers Rise Awards, established 2012.")
