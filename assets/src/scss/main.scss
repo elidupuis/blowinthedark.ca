@@ -6,9 +6,9 @@
 // @import "susy/sass/susy";
 
 // Inuit
-@import "inuit-defaults/settings.defaults";
-@import "inuit-mixins/tools.mixins";
-@import "inuit-headings/base.headings";
+// @import "inuit-defaults/settings.defaults";
+// @import "inuit-mixins/tools.mixins";
+// @import "inuit-headings/base.headings";
 
 // custom module imports here
 // @import "modules/myModule";
@@ -55,7 +55,26 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
   color: rgb(137,138,140);
   line-height: 1.4;
+
+  & > small {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 45%;
+    white-space: nowrap;
+  }
 }
+
+h1 {
+  font-weight: 600;
+}
+
+.lead {
+  font-size: $h3-font-size;
+  line-height: 1.5;
+  margin-top: 1em;
+  text-align: center;
+}
+
 
 .l-mb {
   margin-bottom: 1em;
@@ -70,15 +89,6 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 4em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  > small {
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 45%;
-    // line-height: 2;
-    white-space: nowrap;
-  }
-}
 
 
 .fixie {
@@ -99,10 +109,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tagline {
-  border: solid $light-gray;
+  border: solid lighten($light-gray, 20%);
   border-width: 1px 0;
-  margin: 1em 0;
+  margin: 1.5em 0 1em;
+  padding: 0.5em 0;
+  font-size: 12px;
+  text-align: center;
+
+  abbr {
+    border: 0;
+  }
+}
+
+.caption {
   font-size: 14px;
+  color: $light-gray;
+  margin-top: -1em;
 }
 
 

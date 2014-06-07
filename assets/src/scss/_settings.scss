@@ -7,9 +7,6 @@
 
 // global variables
 
-$primary-font: "ff-tisa-web-pro";
-$secondary-font: "proxima-nova-condensed";
-
 // color vars
 // logo colors
 $green: rgb(125,134,140);
@@ -55,3 +52,16 @@ $hilite-width: 600px;
 // .element p {
 //   @extend %vertical-align;
 // }
+
+/**
+ * Foundation settings
+ */
+$body-font-family: "open sans", Helvetica, sans-serif;
+$header-font-family: $body-font-family;
+
+$h1-font-size: rem-calc(48);
+$h2-font-size: rem-calc(32);
+$h3-font-size: rem-calc(24);
+
+$primary-color: $blue-light;
+$secondary-color: $green;
