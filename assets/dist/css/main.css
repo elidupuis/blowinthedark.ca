@@ -6125,6 +6125,61 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
     z-index: 100; }
 
+.branding {
+  text-align: center; }
+  @media only screen and (min-width:40.063em) {
+    .branding {
+      text-align: left; } }
+
+.logo {
+  margin: 0; }
+
+.tagline {
+  border: solid #dcdbdb;
+  border-width: 1px 0;
+  margin: 2em 0 0;
+  padding: 0.5em 0;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block; }
+  .tagline abbr {
+    border: 0; }
+  @media only screen and (min-width:40.063em) {
+    .tagline {
+      margin: 1.5em 0 1em;
+      text-align: left; } }
+
+.nav {
+  margin: 0.5em 0;
+  padding: 0;
+  text-align: center; }
+  .nav > li {
+    display: inline; }
+    .nav > li > a {
+      color: #7d868c;
+      display: inline-block;
+      padding: 1em;
+      transition: color 0.25s ease-out; }
+      .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus {
+        color: #009bde; }
+    .nav > li.active > a {
+      color: #009bde; }
+  @media only screen and (min-width:40.063em) {
+    .nav {
+      text-align: left;
+      margin-top: 2em; }
+      .nav > li {
+        display: block;
+        margin: 1em 0; }
+        .nav > li > a {
+          padding: 0;
+          display: block; }
+        .nav > li.active > a {
+          border-left: 4px solid #009bde;
+          padding-left: 0.5em;
+          position: relative;
+          line-height: 1.2; } }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #898a8c;
@@ -6133,7 +6188,11 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 45%;
-    white-space: nowrap; }
+    display: inline-block;
+    line-height: 1.4; }
+    @media only screen and (min-width:40.063em) {
+      h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small {
+        white-space: nowrap; } }
 
 h1 {
   font-weight: 600; }
@@ -6165,19 +6224,6 @@ h1 {
 @media only screen and (min-width:64.063em) {
   .fixie {
     padding-right: 0; } }
-
-.logo {
-  margin: 0; }
-
-.tagline {
-  border: solid #dcdbdb;
-  border-width: 1px 0;
-  margin: 1.5em 0 1em;
-  padding: 0.5em 0;
-  font-size: 12px;
-  text-align: center; }
-  .tagline abbr {
-    border: 0; }
 
 .caption {
   font-size: 14px;

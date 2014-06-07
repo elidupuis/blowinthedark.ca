@@ -50,6 +50,101 @@ body {
 }
 
 
+// branding
+.branding {
+  text-align: center;
+
+  @media #{$small} {
+    text-align: left;
+  }
+}
+
+.logo {
+  margin: 0;
+}
+
+.tagline {
+  border: solid lighten($light-gray, 20%);
+  border-width: 1px 0;
+  margin: 2em 0 0;
+  padding: 0.5em 0;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+
+  abbr {
+    border: 0;
+  }
+
+  @media #{$small} {
+    margin: 1.5em 0 1em;
+    text-align: left;
+  }
+}
+
+.nav {
+  margin: 0.5em 0;
+  padding: 0;
+  text-align: center;
+
+  > li {
+    display: inline;
+
+    > a {
+      color: $secondary-color;
+      display: inline-block;
+      padding: 1em;
+      transition: color 0.25s ease-out;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: $primary-color;
+      }
+    }
+
+    &.active > a {
+      color: $primary-color;
+      // border-bottom: 4px solid $primary-color;
+    }
+  }
+
+
+
+  @media #{$small} {
+    text-align: left;
+    margin-top: 2em;
+
+    > li {
+      display: block;
+      margin: 1em 0;
+
+      > a {
+        padding: 0;
+        display: block;
+      }
+
+      &.active > a {
+        border-left: 4px solid $primary-color;
+        padding-left: 0.5em;
+        position: relative;
+        line-height: 1.2;
+
+        // &:before {
+        //   content: '';
+        //   position: absolute;
+        //   left: 0;
+        //   width: 4px;
+        //   background: $primary-color;
+        //   height: 1em;
+        // }
+      }
+    }
+  }
+
+}
+
+
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
@@ -60,7 +155,11 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 45%;
-    white-space: nowrap;
+    display: inline-block;
+    line-height: 1.4;
+    @media #{$small} {
+      white-space: nowrap;
+    }
   }
 }
 
@@ -100,24 +199,6 @@ h1 {
   }
   @media #{$large} {
     padding-right: 0;
-  }
-}
-
-// branding
-.logo {
-  margin: 0;
-}
-
-.tagline {
-  border: solid lighten($light-gray, 20%);
-  border-width: 1px 0;
-  margin: 1.5em 0 1em;
-  padding: 0.5em 0;
-  font-size: 12px;
-  text-align: center;
-
-  abbr {
-    border: 0;
   }
 }
 
