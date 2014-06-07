@@ -32,9 +32,24 @@
 }
 
 body {
-  border-top: 7px solid $green;
   font-family: 'Open Sans', Helvetica, sans-serif;
+  padding-top: 50px;
+
+  // fixed top border style
+  &:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7px;
+    background: $blue-light;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+  }
 }
+
+
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
@@ -68,14 +83,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .fixie {
   @media #{$medium} {
+    width: 25%;
+    padding-right: 1.875rem;
     position: fixed;
-    width: 220px;
+    max-width: 220px;
+  }
+  @media #{$large} {
+    padding-right: 0;
   }
 }
 
 // branding
 .logo {
   margin: 0;
+}
+
+.tagline {
+  border: solid $light-gray;
+  border-width: 1px 0;
+  margin: 1em 0;
+  font-size: 14px;
 }
 
 
@@ -92,7 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-img.thumb {
+img.thumb,
+.prose img {
   padding: 4px;
   border: 1px solid rgb(221, 221, 221);
   border-radius: 4px;

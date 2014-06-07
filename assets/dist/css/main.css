@@ -6146,8 +6146,18 @@ h6, .zeta {
   box-sizing: border-box; }
 
 body {
-  border-top: 7px solid #7d868c;
-  font-family: 'Open Sans', Helvetica, sans-serif; }
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  padding-top: 50px; }
+  body:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7px;
+    background: #009bde;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    z-index: 100; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
@@ -6174,11 +6184,22 @@ h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small {
 
 @media only screen and (min-width:40.063em) {
   .fixie {
+    width: 25%;
+    padding-right: 1.875rem;
     position: fixed;
-    width: 220px; } }
+    max-width: 220px; } }
+@media only screen and (min-width:64.063em) {
+  .fixie {
+    padding-right: 0; } }
 
 .logo {
   margin: 0; }
+
+.tagline {
+  border: solid #a9a8a8;
+  border-width: 1px 0;
+  margin: 1em 0;
+  font-size: 14px; }
 
 .quote {
   background: #009bde;
@@ -6189,7 +6210,7 @@ h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small {
   font-size: 26.66667px;
   color: #fff; }
 
-img.thumb {
+img.thumb, .prose img {
   padding: 4px;
   border: 1px solid #dddddd;
   border-radius: 4px; }
