@@ -12,11 +12,11 @@ Designing locally hand made, custom glass pieces representing identity is what w
 
 For further information on working with the studio in creating your own custom organizational award please contact: <keith@blowinthedark.ca>
 
-![Awards 1](http://placehold.it/800x300&text=Awards1 "Awards 1")
+![The City Managers Award of Excellence]({{ site.assetpath }}img/awards-1.jpg)
 The City Managers Award of Excellence, established 2011.
 
-![Awards 3](http://placehold.it/800x300&text=Awards3 "Awards 3")
+![APEGA Summit Award]({{ site.assetpath }}img/awards-2.jpg)
 APEGA Summit Award, established 2011.
 
-![Awards 7](http://placehold.it/800x300&text=Awards7 "Awards 7")
+![Edmonton Mennonite Centre for Newcomers Rise Awards]({{ site.assetpath }}img/awards-3.jpg)
 Edmonton Mennonite Centre for Newcomers Rise Awards, established 2012.
