@@ -110,15 +110,16 @@ module.exports = function (grunt) {
             // add your custom JS files here
             // if you don't care about the order, use the line below...
             // '<%= app.src %>js/**/*.js',
-            '<%= app.src %>js/main.js'
+            '<%= app.src %>js/main.js',
+            '<%= app.src %>js/captions.js'
           ]
         }
       },
       dist: {
         files: {
           '<%= app.dist %>js/script.js': [
-            '<%= app.tmp %>js/libs.js',
-            '<%= app.tmp %>js/foundation.compiled.js',
+            // '<%= app.tmp %>js/libs.js',
+            // '<%= app.tmp %>js/foundation.compiled.js',
             '<%= app.tmp %>js/main.js'
           ]
         }

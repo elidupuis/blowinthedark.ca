@@ -13,17 +13,16 @@
 
   // define DOB base object and expose it to the global namespace
   function init() {
-    site = window.SITE || {}
-    site.log = log
-    site.name = 'Blow in the Dark Glassworks'
-    // site.whatever_you_need = 'something amazing'
+    site = window.SITE || {};
+    site.log = log;
+    site.name = 'Blow in the Dark Glassworks';
     window.SITE = site || {}
   }
 
 
   // dom ready: do it!
-  $(function () {
-    init()
-  })
+  document.addEventListener('DOMContentLoaded', function (event) {
+    init();
+  });
 
-})(window, window.jQuery || window.Zepto)
+})(window, window.jQuery || window.Zepto);
