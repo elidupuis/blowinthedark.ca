@@ -38,6 +38,10 @@ module.exports = function (grunt) {
           src: '**/*.map',
           dest: '<%= app.dist %>js/'
         }]
+      },
+      modernizr: {
+        src: '<%= app.components %>modernizr/modernizr.js',
+        dest: '<%= app.dist %>js/modernizr.js'
       }
     },
 
