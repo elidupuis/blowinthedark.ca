@@ -9,11 +9,11 @@ Learn an introduction to the art of hand blown glass right here in Edmonton, Alb
 
 For more information on class schedules and pricing please contact <keith@blowinthedark.ca>.
 
-![]({{ site.baseurl }}/{{ site.assetpath }}img/classes-1.jpg)
+![]({{ site.assetpath }}img/classes-1.jpg)
 
 
-![]({{ site.baseurl }}/{{ site.assetpath }}img/classes-2.jpg)
+![]({{ site.assetpath }}img/classes-2.jpg)
 
 
-![]({{ site.baseurl }}/{{ site.assetpath }}img/classes-3.jpg)
+![]({{ site.assetpath }}img/classes-3.jpg)
 

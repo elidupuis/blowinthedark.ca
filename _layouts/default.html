@@ -10,10 +10,10 @@
   <title>{{ site.name }}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="keywords" content="custom glass awards, glass blowing classes, glass sculptures, edmonton, alberta, canada">
-  <link rel="stylesheet" href="{{ site.baseurl }}/{{ site.assetpath }}css/main.css">
+  <link rel="stylesheet" href="{{ site.assetpath }}css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
-  <script src="{{ site.baseurl }}/{{ site.assetpath }}js/modernizr.js"></script>
+  <script src="{{ site.assetpath }}js/modernizr.js"></script>
 
 </head>
 <body>
@@ -22,7 +22,7 @@
     <div class="column medium-3">
       <div class="fixie">
         <header class="branding">
-          <h1 class="logo"><a href="/"><img src="{{ site.baseurl }}/{{ site.assetpath }}img/logo-bitdg.svg" alt="{{ site.name }}"></a></h1>
+          <h1 class="logo"><a href="/"><img src="{{ site.assetpath }}img/logo-bitdg.svg" alt="{{ site.name }}"></a></h1>
           <p class="tagline">A Hot Glass Studio in Edmonton, <abbr title="Alberta">AB</abbr></p>
         </header>
         <nav>
@@ -43,7 +43,7 @@
         {% if is_remote == '2' %}
           <img class="thumb" src="{{ page.banner }}" alt="">
         {% else %}
-          <img class="thumb" src="{{ site.baseurl }}/{{ site.assetpath }}{{ page.banner }}" alt="">
+          <img class="thumb" src="{{ site.assetpath }}{{ page.banner }}" alt="">
         {% endif %}
       {% endif %}
 
@@ -67,7 +67,7 @@
     </div>
   </footer>
 
-  <script src="{{ site.baseurl }}/{{ site.assetpath }}js/script.js"></script>
+  <script src="{{ site.assetpath }}js/script.js"></script>
   <!-- Please call pinit.js only once per page -->
   <script type="text/javascript" async  data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
 
