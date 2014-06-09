@@ -6147,7 +6147,8 @@ body {
   @media only screen and (min-width:40.063em) {
     .tagline {
       margin: 1.5em 0 1em;
-      text-align: left; } }
+      text-align: left;
+      display: block; } }
 
 .nav {
   margin: 0.5em 0;
