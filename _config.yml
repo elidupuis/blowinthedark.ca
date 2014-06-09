@@ -5,7 +5,7 @@ markdown: kramdown
 # config for GH Pages and Local Dev
 # see http://jekyllrb.com/docs/github-pages/
 # see https://github.com/jekyll/jekyll/issues/332#issuecomment-18952908
-baseurl: /blowinthedark.ca
+# baseurl: /blowinthedark.ca
 
 name: Blow in the Dark Glassworks
 url: http://blowinthedark.com
