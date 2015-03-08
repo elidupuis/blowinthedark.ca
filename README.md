@@ -15,6 +15,6 @@ From the root directory you should be able to run
 
 Run the following in 2 separete terminal windows/tabs.
 ```
-jekyll -w serve --baseurl ''
+jekyll serve -w --baseurl ''
 grunt
 ```
