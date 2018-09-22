@@ -9,4 +9,4 @@ Have an interest in commissioning a hand sculpted glass piece symbolizing you an
 
 Email <keith@keithwalkerglass.com> to inquire about commissioning a custom glass sculpture for your unity ceremony.
 
-![Example of unity glass sculpture]({{ site.assetpath }}img/unity-glass.jpg "Unity glass sculpture")
+![Picture of unity glass sculpture]({{ site.assetpath }}img/unity-glass.jpg)

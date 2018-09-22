@@ -16,8 +16,8 @@ Work with Keith to design your special glass piece, it could be large enough to 
 Email <keith@keithwalkerglass.com> to inquire about a memorial glass sculpture you will cherish for a lifetime and beyond.
 
 
-![Example of Memorial glass sculpture]({{ site.assetpath }}img/memorial-1.jpg "Memorial glass")
+![Picture of Memorial glass sculpture]({{ site.assetpath }}img/memorial-1.jpg)
 
-![Example of Memorial glass sculpture]({{ site.assetpath }}img/memorial-2.jpg "Memorial glass")
+![Picture of Memorial glass sculpture]({{ site.assetpath }}img/memorial-2.jpg)
 
-![Example of Memorial glass sculpture]({{ site.assetpath }}img/memorial-3.jpg "Memorial glass")
+![Picture of Memorial glass sculpture]({{ site.assetpath }}img/memorial-3.jpg)

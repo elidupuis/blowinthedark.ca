@@ -12,7 +12,7 @@ From the root directory you should be able to run
 `npm install && bower install`
 
 
-Run the following in 2 separete terminal windows/tabs.
+Run the following in 2 separate terminal windows/tabs.
 ```
 bundle exec jekyll serve
 grunt
